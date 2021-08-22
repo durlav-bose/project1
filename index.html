@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <title>portfolio</title>
+</head>
+<body>
+
+    <div class="header container">
+        <div class="header__wrap">
+            <div class="header__left">
+                <a href="#"><img src="./images/d.png" alt="" class="header__left--logo"></a>
+            </div>
+            <div class="header__menu">
+                <ul class="header__list">
+                    <li class="header__item header__item--cross"><a href="#"><img src="./images/cross.png" alt="" class="header__list--img"></a></li>
+                    <li class="header__item"><a href="#"><h3 class="title__item">home</h3></a></li>
+                    <li class="header__item"><a href="#"><h3 class="title__item">services</h3></a></li>
+                    <li class="header__item"><a href="#"><h3 class="title__item">about</h3></a></li>
+                    <li class="header__item"><a href="#"><h3 class="title__item">gallery</h3></a></li>
+                    <li class="header__item"><a href="#"><h3 class="title__item">design</h3></a></li>
+                    <li class="header__item"><a href="#"><h3 class="title__item">contact</h3></a></li>
+                </ul>
+            </div>
+
+            <div class="header__head">
+                <h1 class="title title__header title__header--big">
+                    <span class="t1">we are</span> <br> <span class="t2">not</span> <br><span class="t3">looking for client</span>
+                </h1>
+            </div>
+
+            <div class="header__right">
+                <a href="#"><img src="./images/menu.png" alt="" class="header__right--img"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="hero ">
+        <div class="hero__wrap">
+            
+        </div>
+    </div>
+
+    <section class="about">
+        <div class="about__wrap">
+            <div class="about__left">
+                <img src="./images/portrait2.jpg" alt="" class="about__left--img">
+            </div>
+            <div class="about__right">
+                <h1 class="title title__about">
+                    visual design and art director
+                </h1>
+                <p class="text text__about lax lax_preset_fadeIn:162:0.5">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque quisquam perspiciatis cumque excepturi vero debitis aperiam facere adipisci, nisi reiciendis non soluta quia recusandae magni, quod pariatur magnam sunt deleniti aliquid eius quo? A eveniet sit pariatur dolorum magnam quisquam, nemo reprehenderit quaerat ut eaque numquam velit ducimus sapiente ipsum.
+                </p>
+                <button class="btn btn__about">hire me</button>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="slider">
+        
+            <h1 class="title slider__title">
+                Showcasing the art.
+            </h1>
+            <div class="slider__img">
+
+            </div>
+        
+    </section>
+
+
+    <div class="gallery">
+        <h1 class="gallery__head">
+            Image gallery
+        </h1>
+        <div class="gallery__wrap">
+            <img src="./images/image.jpg" alt="Waves" class="gallery__img">
+            <img src="./images/image2.jpg" alt="Waves" class="gallery__img">
+            <img src="./images/image3.jpg" alt="Mountain" class="gallery__img">
+            <img src="./images/image4.jpg" alt="Wild Life" class="gallery__img">
+            <img src="./images/image5.jpg" alt="Abstract" class="gallery__img">
+            <img src="./images/image6.jpg" alt="Abstract" class="gallery__img">
+            <img src="./images/image.jpg" alt="Waves" class="gallery__img">
+            <img src="./images/image4.jpg" alt="Wild Life" class="gallery__img">
+            <img src="./images/image5.jpg" alt="Abstract" class="gallery__img">
+        </div>
+
+        <div class="gallery__modal">
+            <span class="gallery__modal--cross" id="cross">&times;</span>
+            <img src="" alt="" class="gallery__modal--img">
+            <div class="gallery__modal--caption">hello</div>
+        </div>
+    </div>
+
+
+    <div class="form__contact">
+        <div class="form__main">
+            <div class="form__header">
+                <h2>Contact Form</h2>
+            </div>
+            <form action="" class="form" id="form">
+                <div class="form__control">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" placeholder="Your name">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+
+
+                <div class="form__control">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Your email">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+
+
+                <div class="form__control">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Your password">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+
+
+                <div class="form__control">
+                    <label for="password2">Password again</label>
+                    <input type="password" id="password2" placeholder="password again">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="main__slide">
+        <h2 class="slide__title">
+            Slideshow of images
+        </h2>
+    <div id="splide" class="splide">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide"><img src="./images/1.jpg"></li>
+            <li class="splide__slide"><img src="./images/2.jpg"></li>
+            <li class="splide__slide"><img src="./images/9.jpg"></li>
+            <li class="splide__slide"><img src="./images/10.jpg"></li>
+            <li class="splide__slide"><img src="./images/11.jpg"></li>
+            <li class="splide__slide"><img src="./images/3.jpg"></li>
+          </ul>
+        </div>
+    </div>
+    </div>
+
+
+
+
+    <footer class="footer">
+        <div class="footer__content">
+            <div class="footer__column">
+                <h2 class="footer__title">
+                    Company
+                </h2>
+                <ul class="footer__list">
+                    <li class="footer__list--item">About</li>
+                    <li class="footer__list--item">Mission</li>
+                    <li class="footer__list--item">Services</li>
+                    <li class="footer__list--item">Social</li>
+                    <li class="footer__list--item">Get in touch</li>
+                </ul>
+            </div>
+
+
+            <div class="footer__column">
+                <h2 class="footer__title">
+                    Products
+                </h2>
+                <ul class="footer__list">
+                    <li class="footer__list--item">About</li>
+                    <li class="footer__list--item">Mission</li>
+                    <li class="footer__list--item">Services</li>
+                    <li class="footer__list--item">Social</li>
+                    <li class="footer__list--item">Get in touch</li>
+                </ul>
+            </div>
+
+
+            <div class="footer__column">
+                <h2 class="footer__title">
+                    Accounts
+                </h2>
+                <ul class="footer__list">
+                    <li class="footer__list--item">About</li>
+                    <li class="footer__list--item">Mission</li>
+                    <li class="footer__list--item">Services</li>
+                    <li class="footer__list--item">Social</li>
+                    <li class="footer__list--item">Get in touch</li>
+                </ul>
+            </div>
+
+
+            <div class="footer__column">
+                <h2 class="footer__title">
+                    Resources
+                </h2>
+                <ul class="footer__list">
+                    <li class="footer__list--item">About</li>
+                    <li class="footer__list--item">Mission</li>
+                    <li class="footer__list--item">Services</li>
+                    <li class="footer__list--item">Social</li>
+                    <li class="footer__list--item">Get in touch</li>
+                </ul>
+            </div>
+
+
+            <div class="footer__column">
+                <h2 class="footer__title">
+                    Support
+                </h2>
+                <ul class="footer__list">
+                    <li class="footer__list--item">About</li>
+                    <li class="footer__list--item">Mission</li>
+                    <li class="footer__list--item">Services</li>
+                    <li class="footer__list--item">Social</li>
+                    <li class="footer__list--item">Get in touch</li>
+                </ul>
+            </div>
+
+
+            <div class="footer__column">
+                <h2 class="footer__title">
+                    Social
+                </h2>
+                <ul class="footer__list">
+                    <li class="footer__list--item"><img class="footer__img" src="./images/facebook.png"></li>
+                    <li class="footer__list--item"><img class="footer__img" src="./images/instagram.png"></li>
+                    <li class="footer__list--item"><img class="footer__img" src="./images/twitter.png" ></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer__bottom">
+            <div class="footer__line"></div>
+            <div class="footer__lastline">
+                <h2 class="footer__lastline--title">
+                    Copyright © you & me 2021.
+                </h2>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="path-to-the-file/splide.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+    
+</body>
+</html>
